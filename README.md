@@ -33,8 +33,8 @@ Before you start, ensure you have the following installed:
 ### **1️⃣ Clone the Repository**
 ```sh
 # Using Git
-git clone https://github.com/yourusername/caesar-cipher-web.git
-cd caesar-cipher-web
+git clone https://github.com/yourusername/caesar-cipher.git
+cd caesar-cipher
 ```
 
 ---
