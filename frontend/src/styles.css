@@ -1,0 +1,183 @@
+body {
+    background:url('../background.jpeg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    backdrop-filter: blur(15px); /* Creates a blur effect */
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+/* Mac Window Container */
+.mac-window {
+    max-width: 400px;
+    margin: 50px auto;
+    background: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+
+/* Mac Header Dots */
+.mac-header {
+    display: flex;
+    padding: 8px;
+    background: #ddd;
+}
+
+.dot {
+    width: 12px;
+    height: 12px;
+    margin: 0 4px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.red { background: #ff5f56; }
+.yellow { background: #ffbd2e; }
+.green { background: #27c93f; }
+
+/* Cipher Form Container */
+.cipher-container {
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+input, button {
+    width: 90%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    flex: 1;
+    margin: 5px;
+}
+
+/* Result Styling */
+.result {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+  /* Information */
+  /* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+  }
+  
+  /* Centering the component container */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+ /* MacOS window styling */
+.mac-window1 {
+    width: 700px;
+    margin: 20px auto;
+    background: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: left;  /* Ensures all text inside is left-aligned */
+  }
+  
+  .mac-header {
+    display: flex;
+    padding: 10px;
+    background: #ddd;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .red { background: #ff5f56; }
+  .yellow { background: #ffbd2e; }
+  .green { background: #27c93f; }
+  
+  /* Content styling */
+  .content {
+    padding: 20px;
+    text-align: left;  /* Ensures all content inside is left-aligned */
+  }
+
+
+  .main-heading{
+    text-align: center;    
+}
+
+
+
+
+  /* Table styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background: #333;
+    color: white;
+  }
+  
+  /* Pre tag styling */
+  pre {
+    background: #272822;
+    color: #f8f8f2;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto;
+    font-size: 14px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: "Courier New", Courier, monospace;
+    line-height: 1.5;
+    text-align: left; /* Ensures text inside <pre> is left-aligned */
+  }
+  
+  pre code {
+    font-family: "Courier New", Courier, monospace;
+    display: block;
+    text-align: left; /* Ensures code is left-aligned */
+  }
+  
